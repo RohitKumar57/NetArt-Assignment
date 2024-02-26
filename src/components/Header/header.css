@@ -1,0 +1,17 @@
+/* header.css */
+
+/* Center the image horizontally and vertically */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Set to 100% to fill the width of the container */
+    /* margin: 30px 0 30px 0; */
+}
+
+/* Decrease the height of the image */
+.header-img {
+  max-height: 150px; /* Set the maximum height of the image, adjust as needed */
+  /* width: auto; */
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+}

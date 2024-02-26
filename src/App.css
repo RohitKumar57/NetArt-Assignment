@@ -1,0 +1,6 @@
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: linear-gradient(to bottom, white, #f0d987);
+}

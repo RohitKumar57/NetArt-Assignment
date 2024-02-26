@@ -1,0 +1,57 @@
+/* YourComponent.css */
+
+.tool-container {
+  max-width: 100%; /* Adjust the max-width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.red-hr {
+  border: 1px solid #ff0000; /* Red color for the horizontal rule */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+/* Additional styling for better presentation */
+.tool-container p {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.tool-img {
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.tool-img img {
+  max-width: 80%;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.below-para{
+    text-align: center;
+}
+.bold-para{
+    font-weight: bold;
+}
+
+/* YourComponent.css */
+
+.below-para {
+  color: black; /* Set default color for the text */
+}
+
+.red-pipe {
+  color: red; /* Set red color for the | character */
+  margin: 0 5px; /* Add margin for spacing */
+}
+
+
+
+
+@media (max-width: 600px) {
+  .tool-img img {
+    max-width: 100%; /* Adjust the max-width for small screens */
+  }
+}

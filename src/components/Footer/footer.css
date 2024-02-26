@@ -1,0 +1,36 @@
+/* YourFooter.css */
+
+.footer-container {
+  color: white;
+  padding: 0 10px 10px 10px;
+  max-width: 100%;
+}
+
+.footer-content {
+  background-color: rgb(241, 45, 45);
+  display: flex;
+  justify-content: space-around;
+  /* max-width: 80%; */
+}
+
+.footer-section {
+  width: 33%;
+  padding: 10px 0 25px 0;
+  text-align: center;
+}
+
+/* Adjust the styling for images as needed */
+.footer-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+@media (max-width: 600px) {
+  .footer-content{
+    flex-direction: column;
+  }
+  .footer-section{
+    width: 100%;
+  }
+}
