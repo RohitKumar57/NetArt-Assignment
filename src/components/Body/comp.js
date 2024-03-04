@@ -12,7 +12,7 @@ const Comp = () => {
         </div>
         <div className="right">
           <h4 className="body-heading">
-            C.R.I PUMPS WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 FOR THE
+            C.R.I PUMPS WIN THE NATIONAL ENERGY CONSERVATION AWARD 2018 FOR THE
             4TH TIME
           </h4>
           <ul>
