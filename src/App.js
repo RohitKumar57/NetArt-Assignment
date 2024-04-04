@@ -11,9 +11,7 @@ function App() {
       <Header />
       <Comp/>
       <Tool/>
-      <Footer/>
-      
-
+      <Footer/> 
     </div>
     </>
   );
