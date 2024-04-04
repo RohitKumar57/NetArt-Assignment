@@ -1,7 +1,7 @@
-import React from 'react'
-import './comp.css'
-import img1 from '../../utils/1.png'
-import img2 from '../../utils/2.png'
+import React from "react";
+import "./comp.css";
+import img1 from "../../utils/1.png";
+import img2 from "../../utils/2.png";
 
 const Comp = () => {
   return (
@@ -11,8 +11,8 @@ const Comp = () => {
           <img className="prize-img" src={img1} alt="Logo for My Company" />
         </div>
         <div className="right">
-          <h4 className='body-heading'>
-            C.R.I ROHIT WINS THE NATIONAL ENERGY CONSERVATION AWARD 2018 FOR THE
+          <h4 className="body-heading">
+            C.R.I PUMPS WIN THE NATION ENERGY CONSERVATION AWARD 2018 FOR THE
             4TH TIME
           </h4>
           <ul>
@@ -40,6 +40,6 @@ const Comp = () => {
       </div>
     </>
   );
-}
+};
 
-export default Comp
+export default Comp;
