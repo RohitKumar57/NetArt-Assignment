@@ -10,10 +10,7 @@ function App() {
     <div className='main-body'>
       <Header />
       <Comp/>
-      <Tool/>
-      <Footer/>
-      
-
+      <Tool/>  
     </div>
     </>
   );
